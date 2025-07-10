@@ -151,6 +151,13 @@ body {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* 加入這段 Media Query 實現 RWD */
+@media (max-width: 768px) {
+  .login-wrapper {
+    flex-direction: column;
+    height: auto;
+  }
+}
 /* 圖片區塊 */
 .login-image {
   flex: 1;
