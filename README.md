@@ -10,6 +10,19 @@
 
 ## how to do to fix code
 
+### file structure
+
+```text
+├── dashboard.html       // 資料顯示的頁面
+├── dashboard.js         // 資料篩選的功能
+├── index.html           // 登入頁面
+├── login.css            // 登入頁面的樣式
+├── peter.jpeg           // 登入介面的圖片
+├── README.md            // 專案說明文件
+├── script.js            // 登入功能的邏輯
+└── style.css            // dashboard 頁面的樣式
+```
+
 1. 如果要看頁面直接執行 html 檔就可以
 2. 要先設定 google sheets 的 API
 
@@ -45,4 +58,6 @@
 ## 參考連結
 
 - https://www.letswrite.tw/google-excel-db/
+- https://flowbite.com/
+  - 很多質感的介面呈現可以參考，丟 gpt 他就會幫你改好
 - chatgpt(牛逼)
