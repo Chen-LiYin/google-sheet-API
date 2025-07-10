@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <title>資料頁面</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://apis.google.com/js/api.js"></script>
+  </head>
+  <body class="page-wrapper">
+    <h1>資料顯示</h1>
+    <button onclick="logout()">登出</button>
+    <div style="margin-top: 20px">
+      搜尋公司名稱或創業家：
+      <input type="text" id="search-input" placeholder="輸入關鍵字" />
+      年營收下限：
+      <input type="number" id="revenue-min" placeholder="例如 50" />
+      <button id="filter-btn">篩選</button>
+      <button id="reset-btn">重置</button>
+      <button id="export-btn">匯出 Excel</button>
+    </div>
+    <div class="table-container">
+      <table id="data-table"></table>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="dashboard.js"></script>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+/* 整體字體和背景 */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  margin: 20px;
+}
+
+.page-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 標題 */
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #111827;
+}
+
+/* 登出按鈕 */
+button {
+  background-color: #3b82f6;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+/* 搜尋與篩選區塊容器 */
+div[style] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+/* 輸入框 */
+input[type="text"],
+input[type="number"] {
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  width: 180px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+.table-container {
+  position: relative;
+  overflow-x: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  color: #4b5563; /* gray-600 */
+  background-color: #ffffff;
+  min-width: 700px;
+}
+
+/* 表頭樣式 */
+.table-container thead {
+  background-color: #f9fafb; /* gray-50 */
+  color: #374151; /* gray-700 */
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.table-container thead th {
+  padding: 12px 24px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* 表身 */
+.table-container tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.table-container tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+.table-container tbody th,
+.table-container tbody td {
+  padding: 16px 24px;
+  border-bottom: 1px solid #e5e7eb;
+  white-space: nowrap;
+}
+
+/* 連結按鈕 */
+.table-container tbody a {
+  color: #2563eb; /* blue-600 */
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.table-container tbody a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9fafb;
+  font-weight: bold;
+}
+
+.login-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.login-logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #111827;
+  text-decoration: none;
+  margin-bottom: 24px;
+}
+
+.login-logo img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.login-box {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.login-box h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #374151;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+.login-remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.login-remember label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.login-remember a {
+  text-decoration: none;
+  color: #3b82f6;
+}
+
+.login-remember a:hover {
+  text-decoration: underline;
+}
+
+.login-box button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.login-box button:hover {
+  background-color: #2563eb;
+}
+
+.signup-text {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  color: #6b7280;
+}
+
+.signup-text a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9fafb;
+}
+
+.login-wrapper {
+  display: flex;
+  width: 90%;
+  max-width: 900px;
+  height: 600px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 圖片區塊 */
+.login-image {
+  flex: 1;
+  background-color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 登入表單區塊 */
+.login-container {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #111827;
+  text-decoration: none;
+  margin-bottom: 24px;
+}
+
+.login-logo img {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+/* 保留原有 login-box、表單、按鈕等的樣式即可 */

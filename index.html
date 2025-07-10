@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <title>登入畫面</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <section class="login-section">
+      <div class="login-wrapper">
+        <div class="login-image">
+          <img src="/peter.jpeg" alt="登入圖示" />
+        </div>
+
+        <div class="login-container">
+          <div class="login-box">
+            <h1>Sign in to your account</h1>
+            <form id="login-form">
+              <label for="username">Username</label>
+              <input type="text" id="username" required />
+
+              <label for="password">Password</label>
+              <input type="password" id="password" required />
+
+              <p id="error-msg" style="color: red; font-weight: bold"></p>
+
+              <button type="submit">Sign in</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
