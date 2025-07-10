@@ -2,7 +2,7 @@
 
 ## how to run
 
-1. 部屬連結：
+1. 部屬連結：https://chen-liyin.github.io/google-sheet-API/dashboard.html
 2. 登入帳密，之後再改，先寫死
    帳號：admin
    密碼：1234
@@ -54,6 +54,10 @@
 | Git History                  | 查看檔案 Git log、檔案歷史紀錄、比較分支或 commit 紀錄 。                                                       |
 | Material Icon Theme          | 好看的 VSCode 圖示可以提升生產力。不一定要用這個，有很多不同圖示的 extentions 等你去找。                        |
 | ESLint                       | 用於檢查 JavaScript 程式碼是否符合規則(語法檢查、提醒刪除多於程式碼等等)，確保你的程式碼品質在一定的水準之上 。 |
+
+## 資料集
+
+https://docs.google.com/spreadsheets/d/1dzIRH_X2ly8LARcN-HwpqUIOY99pqrb0Cbu3pZ9I7wQ/edit?usp=sharing
 
 ## 參考連結
 
